@@ -8,7 +8,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 ENV TOMCAT_MAJOR_VERSION 8
-ENV TOMCAT_MINOR_VERSION 8.0.23
+ENV TOMCAT_MINOR_VERSION 8.0.32
 ENV CATALINA_HOME /tomcat
 
 # INSTALL TOMCAT
